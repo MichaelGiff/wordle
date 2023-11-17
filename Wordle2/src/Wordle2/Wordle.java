@@ -7,6 +7,7 @@ public class Wordle {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Welcome to Wordle!");
+        System.out.println("hello");
         System.out.println("Please select a difficulty level (1 or 2):");
         int difficultyLevel = scanner.nextInt();
 
