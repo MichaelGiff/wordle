@@ -16,6 +16,7 @@ public class Wordle {
         int maxGuesses = 6;
         for (int i = 0; i < maxGuesses; i++) {
             System.out.println("\nEnter your guess:");
+            System.out.println(" hello");
             String guess = scanner.next();
 
             ArrayList<Character> correctLetters = new ArrayList<>();
